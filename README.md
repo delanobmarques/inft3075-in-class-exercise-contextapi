@@ -1,8 +1,10 @@
-# React + Vite
+# In-class exercise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The goal of the exercise is to refactor the initial code to use Context API instead of having props to pass data between components. This will eliminate the need for prop drilling and make the code more readable and maintainable. 
+Create a context for the cart state and another context for the products state, and use the useContext hook to access them in the components that need them. 
+Don't forget to wrap the App component with the context providers. 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+After cloning this repository:
+- cd into the project's folder
+- execute `npm install`
+- execute `npm run dev`
