@@ -7,7 +7,7 @@ const App = () => {
     {id: 1001, name: "Apple", price: 1.99},
     {id: 1002, name: "Banana", price: 0.79},
     {id: 1003, name: "Carrot", price: 1.49},
-    {id: 1003, name: "Tomato", price: 1.55},
+    {id: 1004, name: "Tomato", price: 1.55},
   ])
   return (
     <div className="app">
